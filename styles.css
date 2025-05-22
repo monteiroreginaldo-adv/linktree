@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+      font-family: 'cabin', sans-serif;
+      background-color: #696969;
+      text-align: center;
+      padding: 30px 15px;
+      color: #333;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-position: top;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: -60px;
+    }
+
+    .header {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
+
+    .subtitle h2 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 20px;
+      width: 80%;
+      max-width: 400px;
+      background-color: #363636;
+      border: none;
+      border-radius: 15px;
+      font-size: 18px;
+      color: #e8e8e8;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #b5b5b5;
+    }
+
+    .guide-btn {
+      background-color: #363636;
+      color: white;
+      font-weight: bold;
+    }
+
+    .guide-btn span {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 5px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #a9a9a9;
+      border-radius: 20px;
+      padding: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .top-image {
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
